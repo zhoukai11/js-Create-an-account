@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+
+li {
+    list-style: none
+}
+
+button {
+    cursor: pointer
+}
+
+button,
+input {
+    font-family: sans-serif;
+    border: 0;
+    outline: none;
+}
+
+.registerarea {
+    margin: 50px auto;
+    width: 600px;
+    height: 400px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.reg_form {
+    padding-left: 95px;
+    margin: 55px auto 0 auto;
+    width: 600px;
+}
+
+.reg_form ul li {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.reg_form ul li input {
+    padding-left: 10px;
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li span {
+    font-size: 12px;
+}
